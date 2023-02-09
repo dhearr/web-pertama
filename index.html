@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <title>webpertama</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="../sesi2/assets/icon/partner.png"
+          alt="logo"
+          class="logo-img"
+        />
+        <h1 class="logo-title">X CODE</h1>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#jasa">JASA</a></li>
+          <li><a href="mailto:dhearr27@cloud.com">KONTAK</a></li>
+        </ul>
+      </nav>
+      <button class="btn-cta" onclick="redirInstagram()">follow saya</button>
+    </header>
+    <div class="container">
+      <div class="intro">
+        <p class="title">Hello, Dhea Ramdani</p>
+        <p class="description">Technology From Village</p>
+        <img
+          src="assets/foto/dhea1.jpeg"
+          alt="dhea ramdani1"
+          class="img-foto"
+        />
+      </div>
+    </div>
+    <div class="paralax">
+      <div class="tentang">
+        <p class="title">Saya Adalah Progamer Pemula</p>
+        <p class="description">Percaya Proses,Hasil Yang Menentukan!</p>
+        <div class="mt-btn">
+          <button class="btn-cta" onclick="redirWhatsapp()">Mari Kerjasama</button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card" id="jasa">
+          <div class="card-item">
+            <img
+              src="../sesi2/assets/icon/24-hours.png"
+              alt="icon1"
+              class="icon"
+            />
+            <p class="card-title">PELAYANAN</p>
+            <p class="card-description">Melayani Anda Selama 24Jam Nonstop!</p>
+          </div>
+          <div class="card-item">
+            <img
+              src="../sesi2/assets/icon/hot-deal.png"
+              alt="icon2"
+              class="icon"
+            />
+            <p class="card-title">Harga</p>
+            <p class="card-description">
+              Biaya Paling Murah Di Seluruh Grand Line!
+            </p>
+          </div>
+          <div class="card-item">
+            <img
+              src="../sesi2/assets/icon/rating.png"
+              alt="icon3"
+              class="icon"
+            />
+            <p class="card-title">Review</p>
+            <p class="card-description">
+              Mereka Senang Bekerjasama Dengan Saya!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>&copy; Website Dhea Ramdani 2023</p>
+    </footer>
+    <script>
+      function redirInstagram() {
+        window.location.href = "https://instagram.com/dhearrrrrrrrrr";
+      }
+      function redirWhatsapp() {
+        window.location.href = "https://wa.me/0895613983943";
+      }
+    </script>
+  </body>
+</html>
